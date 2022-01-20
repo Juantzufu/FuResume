@@ -13,7 +13,7 @@ html {
 header div.backImage {
   min-height: 45vh;
   width: 100%;
-  background-image: url("./pictures/專題發表照片 .jpg");
+  background-image: url("./pictures/專題發表照片.jpg");
   background-size: cover;
   background-position: right 10% bottom 45%;
   position: relative;

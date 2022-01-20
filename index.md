@@ -13,7 +13,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./styles/styles.css">
         <link rel="icon" href="">
-        <title>阮子芙的履歷</title>
+<!--         <title>阮子芙的履歷</title> -->
     </head>
     <body>
         <header>

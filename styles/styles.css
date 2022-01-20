@@ -1,0 +1,383 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header div.backImage {
+  min-height: 45vh;
+  width: 100%;
+  background-image: url("/pictures/專題發表照片 .jpg");
+  background-size: cover;
+  background-position: right 10% bottom 45%;
+  position: relative;
+}
+
+header img {
+  position: absolute;
+  width: 200px;
+  border-radius: 100%;
+  bottom: -35%;
+  left: 2rem;
+  -webkit-box-shadow: rgba(27, 26, 26, 0.329) 1px 2px 0;
+          box-shadow: rgba(27, 26, 26, 0.329) 1px 2px 0;
+  z-index: 2;
+}
+
+header h1 {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 0.5rem;
+  left: 16rem;
+  color: white;
+}
+
+nav {
+  min-height: 8vh;
+  background-color: #ffd97d;
+  -webkit-box-shadow: 1px 1px 2px 1px rgba(27, 26, 26, 0.329);
+          box-shadow: 1px 1px 2px 1px rgba(27, 26, 26, 0.329);
+}
+
+nav ul {
+  width: 80vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  right: 0;
+  list-style-type: none;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+nav ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  padding: 0rem 2rem;
+  min-height: 8vh;
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2rem;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav ul li a:hover {
+  background-color: #fffbcc;
+}
+
+ul {
+  list-style: none;
+  padding: 0rem 0.5rem;
+}
+
+ul li {
+  padding: 0.5rem 0rem;
+  font-weight: bold;
+}
+
+main div#personalinformation {
+  min-height: 47vh;
+  width: 75vw;
+  margin-left: 14.5rem;
+  padding-top: 1rem;
+}
+
+main div#personalinformation h4 {
+  padding: 0.3rem 0rem;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 1.15rem;
+}
+
+main div#personalinformation p {
+  margin: 0.5rem 0rem;
+  letter-spacing: 3px;
+  line-height: 25px;
+  font-size: 1.1rem;
+}
+
+main div#WorkExperience {
+  min-height: 92vh;
+  background-color: #ffffdd;
+  padding: 1rem;
+}
+
+main div#WorkExperience h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+main div#WorkExperience div.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main div#WorkExperience div.logo img {
+  width: 4rem;
+  border-radius: 30%;
+  -webkit-box-shadow: rgba(27, 26, 26, 0.329) 1px 1px 0;
+          box-shadow: rgba(27, 26, 26, 0.329) 1px 1px 0;
+  padding: 0.7rem;
+  background-color: white;
+  margin-right: 1rem;
+}
+
+main div#WorkExperience div.logo div.OperatingHours h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+main div#WorkExperience div.logo div.OperatingHours h5 {
+  padding-right: 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+main .crucial {
+  font-weight: 900;
+  color: #9d0208;
+}
+
+main div#ProjectAchievement {
+  min-height: 92vh;
+}
+
+main div#ProjectAchievement h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+main div#ProjectAchievement div.p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1rem;
+}
+
+main div#ProjectAchievement div.pp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 2rem;
+}
+
+main div#ProjectAchievement div.pp samp.PPTXT {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+main div#ProjectAchievement div.picturs1 {
+  width: 20vw;
+  height: 15vh;
+  padding: 4rem;
+  background-image: url("/pictures/messageImage_1640785464764.jpg");
+  background-size: cover;
+}
+
+main div#ProjectAchievement div.picturs2 {
+  width: 20vw;
+  height: 15vh;
+  padding: 4rem;
+  background-image: url("/pictures/專題發表.jpg");
+  background-size: cover;
+}
+
+main div#ProjectAchievement div.picturs3 {
+  width: 20vw;
+  height: 15vh;
+  padding: 4rem;
+  background-image: url("/pictures/303291.jpg");
+  background-size: cover;
+}
+
+main div#Expertise {
+  background-color: #ffffdd;
+}
+
+main div#Expertise h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+main div#Expertise div.e {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0rem 1rem;
+}
+
+main div#Expertise div.e p {
+  width: 400px;
+  height: 150px;
+}
+
+main div#Expertise div.e p samp {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+main div#License h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+main div#License div.l {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0rem 1rem;
+}
+
+main div#License div.l p {
+  width: 400px;
+  height: 150px;
+}
+
+main div#License div.l p samp {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+main div#autobiography {
+  background-color: #ffffdd;
+}
+
+main div#autobiography h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+main div#autobiography div.a {
+  margin: 0rem 1rem;
+}
+
+main div#autobiography div.a p samp {
+  margin-left: 1rem;
+}
+
+div#frontpage {
+  display: inline-block;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 1rem;
+  left: 100%;
+}
+
+div#frontpage a {
+  text-decoration: none;
+  color: #ffc743ad;
+  background-color: #ffd87d7c;
+  padding: 0rem 1.1rem;
+  font-size: 3rem;
+  border-radius: 100%;
+  text-align: center;
+  margin: 1rem;
+}
+
+@media screen and (max-width: 1125px) {
+  header div.backImage img {
+    width: 180px;
+    bottom: 0;
+  }
+  nav {
+    min-height: 0vh;
+    background-color: #ffd87d00;
+    border: solid 1px rgba(0, 0, 0, 0);
+  }
+  nav ul {
+    width: 150px;
+    display: block;
+    position: absolute;
+    left: 0;
+    padding: 0;
+    background-color: #ffd97d;
+  }
+  nav ul li {
+    width: 150px;
+  }
+  nav ul li a {
+    width: 150px;
+  }
+  main div#personalinformation {
+    min-height: 47vh;
+    width: 75vw;
+    margin-left: 150px;
+  }
+  main div#personalinformation h4 {
+    padding: 0.5rem 0rem;
+    padding-left: 0.5rem;
+    padding-right: 3rem;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 1.15rem;
+  }
+  main div#personalinformation p {
+    padding-left: 0.5rem;
+    padding-right: 3rem;
+    letter-spacing: 3px;
+    line-height: 25px;
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 521px) {
+  div.logo img {
+    height: 3rem;
+  }
+  div.logo h4 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-height: 400px) {
+  header div.backImage img {
+    width: 20%;
+    bottom: 0;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

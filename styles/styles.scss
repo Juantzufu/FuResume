@@ -9,11 +9,12 @@
 html {
   scroll-behavior: smooth;
 }
+$backgroundcolor1:#ffffdd;
 header {
   div.backImage {
     min-height: 45vh;
     width: 100%;
-    background-image: url("/pictures/專題發表照片\ .jpg");
+    background-image: url("../pictures/專題發表照片.jpg");
     background-size: cover;
     // background-color: papayawhip;
     background-position: right 10% bottom 45%;
@@ -97,8 +98,7 @@ main {
     }
   }
   div#WorkExperience {
-    min-height: 92vh;
-    background-color: #ffffdd;
+    min-height: 50vh;
     padding: 1rem;
     h3 {
       font-size: 2rem;
@@ -126,13 +126,15 @@ main {
         }
       }
     }
-  }
-  .crucial {
-    font-weight: 900;
-    color: #9d0208;
+    samp {
+      font-size: 1.2rem;
+      font-weight: 800;
+    }
   }
   div#ProjectAchievement {
+    background-color: $backgroundcolor1;
     min-height: 92vh;
+    padding: 1rem 0rem;
     h3 {
       font-size: 2rem;
       font-weight: bold;
@@ -156,26 +158,27 @@ main {
       width: 20vw;
       height: 15vh;
       padding: 4rem;
-      background-image: url("/pictures/messageImage_1640785464764.jpg");
+      background-image: url("../pictures/messageImage_1640785464764.jpg");
       background-size: cover;
     }
     div.picturs2 {
       width: 20vw;
       height: 15vh;
       padding: 4rem;
-      background-image: url("/pictures/專題發表.jpg");
+      background-image: url("../pictures/專題發表.jpg");
       background-size: cover;
     }
     div.picturs3 {
       width: 20vw;
       height: 15vh;
       padding: 4rem;
-      background-image: url("/pictures/303291.jpg");
+      background-image: url("../pictures/303291.jpg");
       background-size: cover;
     }
   }
   div#Expertise {
-    background-color: #ffffdd;
+    min-height: 31vh;
+    background-color: $backgroundcolor1;
     h3 {
       font-size: 2rem;
       font-weight: bold;
@@ -198,11 +201,12 @@ main {
     }
   }
   div#License {
+    min-height: 20vh;
     h3 {
       font-size: 2rem;
       font-weight: bold;
       margin-left: 1rem;
-      margin-top: 1rem;
+      // margin-top: 1rem;
     }
     div.l {
       display: flex;
@@ -211,7 +215,6 @@ main {
       margin: 0rem 1rem;
       p {
         width: 400px;
-        height: 150px;
         samp {
           font-size: 1.2rem;
           font-weight: 800;
@@ -220,7 +223,8 @@ main {
     }
   }
   div#autobiography {
-    background-color: #ffffdd;
+    background-color: $backgroundcolor1;
+    min-height: 65vh;
     h3 {
       font-size: 2rem;
       font-weight: bold;
@@ -235,24 +239,25 @@ main {
         }
       }
     }
+    div#frontpage {
+      display: inline-block;
+      position: sticky;
+      bottom: 0;
+      left: 100%;
+      a {
+        text-decoration: none;
+        color: #ffc743ad;
+        background-color: #ffd87d7c;
+        padding: 0rem 1.1rem;
+        font-size: 3rem;
+        border-radius: 100%;
+        text-align: center;
+        margin: 1rem;
+      }
+    }
   }
 }
-div#frontpage {
-  display: inline-block;
-  position: sticky;
-  bottom: 1rem;
-  left: 100%;
-  a {
-    text-decoration: none;
-    color: #ffc743ad;
-    background-color: #ffd87d7c;
-    padding: 0rem 1.1rem;
-    font-size: 3rem;
-    border-radius: 100%;
-    text-align: center;
-    margin: 1rem;
-  }
-}
+
 
 @media screen and (max-width: 1125px) {
   header {

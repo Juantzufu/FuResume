@@ -13,7 +13,7 @@ html {
 header div.backImage {
   min-height: 45vh;
   width: 100%;
-  background-image: url("./pictures/專題發表照片.jpg");
+  background-image: url("../pictures/專題發表照片.jpg");
   background-size: cover;
   background-position: right 10% bottom 45%;
   position: relative;
@@ -120,8 +120,7 @@ main div#personalinformation p {
 }
 
 main div#WorkExperience {
-  min-height: 92vh;
-  background-color: #ffffdd;
+  min-height: 50vh;
   padding: 1rem;
 }
 
@@ -157,13 +156,15 @@ main div#WorkExperience div.logo div.OperatingHours h5 {
   font-weight: bold;
 }
 
-main .crucial {
-  font-weight: 900;
-  color: #9d0208;
+main div#WorkExperience samp {
+  font-size: 1.2rem;
+  font-weight: 800;
 }
 
 main div#ProjectAchievement {
+  background-color: #ffffdd;
   min-height: 92vh;
+  padding: 1rem 0rem;
 }
 
 main div#ProjectAchievement h3 {
@@ -199,7 +200,7 @@ main div#ProjectAchievement div.picturs1 {
   width: 20vw;
   height: 15vh;
   padding: 4rem;
-  background-image: url("./pictures/messageImage_1640785464764.jpg");
+  background-image: url("../pictures/messageImage_1640785464764.jpg");
   background-size: cover;
 }
 
@@ -207,7 +208,7 @@ main div#ProjectAchievement div.picturs2 {
   width: 20vw;
   height: 15vh;
   padding: 4rem;
-  background-image: url("./pictures/專題發表.jpg");
+  background-image: url("../pictures/專題發表.jpg");
   background-size: cover;
 }
 
@@ -215,11 +216,12 @@ main div#ProjectAchievement div.picturs3 {
   width: 20vw;
   height: 15vh;
   padding: 4rem;
-  background-image: url("./pictures/303291.jpg");
+  background-image: url("../pictures/303291.jpg");
   background-size: cover;
 }
 
 main div#Expertise {
+  min-height: 31vh;
   background-color: #ffffdd;
 }
 
@@ -252,11 +254,14 @@ main div#Expertise div.e p samp {
   font-weight: 800;
 }
 
+main div#License {
+  min-height: 20vh;
+}
+
 main div#License h3 {
   font-size: 2rem;
   font-weight: bold;
   margin-left: 1rem;
-  margin-top: 1rem;
 }
 
 main div#License div.l {
@@ -273,7 +278,6 @@ main div#License div.l {
 
 main div#License div.l p {
   width: 400px;
-  height: 150px;
 }
 
 main div#License div.l p samp {
@@ -283,6 +287,7 @@ main div#License div.l p samp {
 
 main div#autobiography {
   background-color: #ffffdd;
+  min-height: 65vh;
 }
 
 main div#autobiography h3 {
@@ -300,15 +305,15 @@ main div#autobiography div.a p samp {
   margin-left: 1rem;
 }
 
-div#frontpage {
+main div#autobiography div#frontpage {
   display: inline-block;
   position: -webkit-sticky;
   position: sticky;
-  bottom: 1rem;
+  bottom: 0;
   left: 100%;
 }
 
-div#frontpage a {
+main div#autobiography div#frontpage a {
   text-decoration: none;
   color: #ffc743ad;
   background-color: #ffd87d7c;

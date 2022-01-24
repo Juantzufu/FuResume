@@ -10,6 +10,8 @@ html {
   scroll-behavior: smooth;
 }
 $backgroundcolor1:#ffffdd;
+$backgroundcolor2:#ffd97d;
+$backgroundcolor3:#fffbcc;
 header {
   div.backImage {
     min-height: 45vh;
@@ -40,7 +42,7 @@ header {
 }
 nav {
   min-height: 8vh;
-  background-color: #ffd97d;
+  background-color: $backgroundcolor2;
   box-shadow: 1px 1px 2px 1px rgba(27, 26, 26, 0.329);
   ul {
     width: 80vw;
@@ -64,7 +66,7 @@ nav {
         display: flex;
         align-items: center;
         &:hover {
-          background-color: #fffbcc;
+          background-color: $backgroundcolor3;
         }
       }
     }
@@ -257,7 +259,6 @@ div#frontpage {
     margin: 1rem;
   }
 }
-
 @media screen and (max-width: 1125px) {
   header {
     div.backImage {
@@ -277,7 +278,7 @@ div#frontpage {
       position: absolute;
       left: 0;
       padding: 0;
-      background-color: #ffd97d;
+      background-color: $backgroundcolor2;
       li {
         width: 150px;
         a {

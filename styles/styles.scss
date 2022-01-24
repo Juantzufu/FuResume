@@ -9,9 +9,9 @@
 html {
   scroll-behavior: smooth;
 }
-$backgroundcolor1:#ffffdd;
-$backgroundcolor2:#ffd97d;
-$backgroundcolor3:#fffbcc;
+$backgroundcolor1: #ffffdd;
+$backgroundcolor2: #ffd97d;
+$backgroundcolor3: #fffbcc;
 header {
   div.backImage {
     min-height: 45vh;
@@ -326,6 +326,18 @@ div#frontpage {
       img {
         width: 20%;
         bottom: 0;
+      }
+    }
+  }
+  main {
+    div#ProjectAchievement {
+      div.pp {
+        align-items: center;
+        padding-left: 0.5rem;
+        samp.PPTXT {
+          font-size: 1.2rem;
+          font-weight: 800;
+        }
       }
     }
   }

@@ -383,5 +383,15 @@ div#frontpage a {
     width: 20%;
     bottom: 0;
   }
+  main div#ProjectAchievement div.pp {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 0.5rem;
+  }
+  main div#ProjectAchievement div.pp samp.PPTXT {
+    font-size: 1.2rem;
+    font-weight: 800;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

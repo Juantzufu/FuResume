@@ -145,10 +145,10 @@ main {
     }
     div.p {
       display: flex;
+      flex-wrap: wrap;
       margin: 1rem;
     }
     div.pp {
-      display: flex;
       align-items: center;
       padding-left: 2rem;
       samp.PPTXT {
@@ -157,21 +157,21 @@ main {
       }
     }
     div.picturs1 {
-      width: 20vw;
+      width: 250px;
       height: 15vh;
       padding: 4rem;
       background-image: url("../pictures/messageImage_1640785464764.jpg");
       background-size: cover;
     }
     div.picturs2 {
-      width: 20vw;
+      width: 250px;
       height: 15vh;
       padding: 4rem;
       background-image: url("../pictures/專題發表.jpg");
       background-size: cover;
     }
     div.picturs3 {
-      width: 20vw;
+      width: 250px;
       height: 15vh;
       padding: 4rem;
       background-image: url("../pictures/303291.jpg");

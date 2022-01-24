@@ -224,7 +224,7 @@ main {
   }
   div#autobiography {
     background-color: $backgroundcolor1;
-    min-height: 65vh;
+    min-height: 70vh;
     h3 {
       font-size: 2rem;
       font-weight: bold;
@@ -239,25 +239,24 @@ main {
         }
       }
     }
-    div#frontpage {
-      display: inline-block;
-      position: sticky;
-      bottom: 0;
-      left: 100%;
-      a {
-        text-decoration: none;
-        color: #ffc743ad;
-        background-color: #ffd87d7c;
-        padding: 0rem 1.1rem;
-        font-size: 3rem;
-        border-radius: 100%;
-        text-align: center;
-        margin: 1rem;
-      }
-    }
   }
 }
-
+div#frontpage {
+  display: inline-block;
+  position: sticky;
+  bottom: 0;
+  left: 100%;
+  a {
+    text-decoration: none;
+    color: #ffc743ad;
+    background-color: #ffd87d7c;
+    padding: 0rem 1.1rem;
+    font-size: 3rem;
+    border-radius: 100%;
+    text-align: center;
+    margin: 1rem;
+  }
+}
 
 @media screen and (max-width: 1125px) {
   header {

@@ -287,7 +287,7 @@ main div#License div.l p samp {
 
 main div#autobiography {
   background-color: #ffffdd;
-  min-height: 65vh;
+  min-height: 70vh;
 }
 
 main div#autobiography h3 {
@@ -305,7 +305,7 @@ main div#autobiography div.a p samp {
   margin-left: 1rem;
 }
 
-main div#autobiography div#frontpage {
+div#frontpage {
   display: inline-block;
   position: -webkit-sticky;
   position: sticky;
@@ -313,7 +313,7 @@ main div#autobiography div#frontpage {
   left: 100%;
 }
 
-main div#autobiography div#frontpage a {
+div#frontpage a {
   text-decoration: none;
   color: #ffc743ad;
   background-color: #ffd87d7c;

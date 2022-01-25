@@ -141,7 +141,6 @@ main {
       font-size: 2rem;
       font-weight: bold;
       margin-left: 1rem;
-      margin-top: 1rem;
     }
     div.p {
       display: flex;
@@ -181,6 +180,7 @@ main {
   div#Expertise {
     min-height: 31vh;
     background-color: $backgroundcolor1;
+    padding-top: 1rem;
     h3 {
       font-size: 2rem;
       font-weight: bold;
@@ -194,7 +194,7 @@ main {
       margin: 0rem 1rem;
       p {
         width: 400px;
-        height: 150px;
+        margin: 1rem 0rem;
         samp {
           font-size: 1.2rem;
           font-weight: 800;
@@ -217,6 +217,7 @@ main {
       margin: 0rem 1rem;
       p {
         width: 400px;
+        margin: 1rem 0rem;
         samp {
           font-size: 1.2rem;
           font-weight: 800;
@@ -226,19 +227,17 @@ main {
   }
   div#autobiography {
     background-color: $backgroundcolor1;
-    min-height: 70vh;
+    min-height: 75vh;
+    padding: 1rem 0rem;
     h3 {
       font-size: 2rem;
       font-weight: bold;
       margin-left: 1rem;
-      margin-top: 1rem;
     }
     div.a {
       margin: 0rem 1rem;
       p {
-        samp {
-          margin-left: 1rem;
-        }
+        margin: 1rem 0rem;
       }
     }
   }
@@ -311,12 +310,30 @@ div#frontpage {
   }
 }
 @media screen and(max-width:521px) {
-  div.logo {
-    img {
-      height: 3rem;
-    }
-    h4 {
-      font-size: 1rem;
+  // div.backImage {
+  //   width: 100%;
+
+  //   padding: 0;
+  //   margin: 0;
+  // }
+}
+div.logo {
+  img {
+    height: 3rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+}
+main {
+  div#ProjectAchievement {
+    div.pp {
+      align-items: center;
+      padding-left: 0.5rem;
+      samp.PPTXT {
+        font-size: 1.2rem;
+        font-weight: 800;
+      }
     }
   }
 }
@@ -326,18 +343,6 @@ div#frontpage {
       img {
         width: 20%;
         bottom: 0;
-      }
-    }
-  }
-  main {
-    div#ProjectAchievement {
-      div.pp {
-        align-items: center;
-        padding-left: 0.5rem;
-        samp.PPTXT {
-          font-size: 1.2rem;
-          font-weight: 800;
-        }
       }
     }
   }

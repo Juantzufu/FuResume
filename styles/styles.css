@@ -171,7 +171,6 @@ main div#ProjectAchievement h3 {
   font-size: 2rem;
   font-weight: bold;
   margin-left: 1rem;
-  margin-top: 1rem;
 }
 
 main div#ProjectAchievement div.p {
@@ -222,6 +221,7 @@ main div#ProjectAchievement div.picturs3 {
 main div#Expertise {
   min-height: 31vh;
   background-color: #ffffdd;
+  padding-top: 1rem;
 }
 
 main div#Expertise h3 {
@@ -245,7 +245,7 @@ main div#Expertise div.e {
 
 main div#Expertise div.e p {
   width: 400px;
-  height: 150px;
+  margin: 1rem 0rem;
 }
 
 main div#Expertise div.e p samp {
@@ -277,6 +277,7 @@ main div#License div.l {
 
 main div#License div.l p {
   width: 400px;
+  margin: 1rem 0rem;
 }
 
 main div#License div.l p samp {
@@ -286,22 +287,22 @@ main div#License div.l p samp {
 
 main div#autobiography {
   background-color: #ffffdd;
-  min-height: 70vh;
+  min-height: 75vh;
+  padding: 1rem 0rem;
 }
 
 main div#autobiography h3 {
   font-size: 2rem;
   font-weight: bold;
   margin-left: 1rem;
-  margin-top: 1rem;
 }
 
 main div#autobiography div.a {
   margin: 0rem 1rem;
 }
 
-main div#autobiography div.a p samp {
-  margin-left: 1rem;
+main div#autobiography div.a p {
+  margin: 1rem 0rem;
 }
 
 div#frontpage {
@@ -369,29 +370,30 @@ div#frontpage a {
   }
 }
 
-@media screen and (max-width: 521px) {
-  div.logo img {
-    height: 3rem;
-  }
-  div.logo h4 {
-    font-size: 1rem;
-  }
+div.logo img {
+  height: 3rem;
+}
+
+div.logo h4 {
+  font-size: 1rem;
+}
+
+main div#ProjectAchievement div.pp {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 0.5rem;
+}
+
+main div#ProjectAchievement div.pp samp.PPTXT {
+  font-size: 1.2rem;
+  font-weight: 800;
 }
 
 @media screen and (max-height: 400px) {
   header div.backImage img {
     width: 20%;
     bottom: 0;
-  }
-  main div#ProjectAchievement div.pp {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding-left: 0.5rem;
-  }
-  main div#ProjectAchievement div.pp samp.PPTXT {
-    font-size: 1.2rem;
-    font-weight: 800;
   }
 }
 /*# sourceMappingURL=styles.css.map */
